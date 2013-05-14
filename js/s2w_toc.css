@@ -1,0 +1,33 @@
+@font-face{
+	font-family: go-boom;
+	src: url('go-boom.ttf')
+}
+#s2w_toc{
+	position: fixed;
+	z-index: 10;
+	top: 30%; left: 80%;
+} 
+#s2w_toc_fieldset{
+	opacity: 0.8;
+	display: none;
+	font-family: go-boom;
+	border:1px outset #bebebe;border-radius:18px;-moz-border-radius:18px;-webkit-border-radius:18px;
+	background: #EEE;
+}
+#s2w_toc_ul{
+	text-align: left;
+}
+#s2w_toc_ul > li > a {text-decoration: none;}
+#s2w_toc_ul > li > a:visited{color: #24A;}
+#s2w_toc_ul > li >  a:hover{color: #0665a2;}
+#s2w_toc_ul > li >  a:link{color: #333366;}
+#s2w_toc_ul > li {
+	font-family: "Comic Sans MS";
+	list-style: none;
+	font-size: 0.9em;
+	width: 100%;
+}
+#s2w_toc_ul > .s2w_toc_H2{ text-indent: 1em;}
+#s2w_toc_ul > .s2w_toc_H3{ text-indent: 1.5em;}
+
+
